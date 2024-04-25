@@ -8,6 +8,6 @@ public class Earth : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput","Sockets","Networking","WebSockets","Json","HeadMountedDisplay", "JsonUtilities",});
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput","Sockets","Networking","WebSockets","Json","HeadMountedDisplay", "JsonUtilities"});
     }
 }

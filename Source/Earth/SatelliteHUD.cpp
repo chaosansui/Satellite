@@ -39,7 +39,7 @@ void ASatelliteHUD::DrawHUD()
         Canvas->DrawItem(TextItem1);
 
         //需调用实际参数x坐标
-        FString Location1 = FString::Printf(TEXT("sdfsdf"));
+        FString Location1 = FString::Printf(TEXT("xxxx"));
         FCanvasTextItem LocationItem1(TextPosition + FVector2D(120, 0), FText::FromString(Location1), Font, FLinearColor::White);
         Canvas->DrawItem(LocationItem1);
 
@@ -48,7 +48,7 @@ void ASatelliteHUD::DrawHUD()
         Canvas->DrawItem(TextItem2);
         
         //需调用实际参数y坐标
-        FString Location2 = FString::Printf(TEXT("gdfg"));
+        FString Location2 = FString::Printf(TEXT("xxxx"));
         FCanvasTextItem LocationItem2(TextPosition + FVector2D(120, 20), FText::FromString(Location2), Font, FLinearColor::White);
         Canvas->DrawItem(LocationItem2);
 
@@ -57,7 +57,7 @@ void ASatelliteHUD::DrawHUD()
         Canvas->DrawItem(TextItem3);
 
         //需调用实际参数z坐标
-        FString Location3 = FString::Printf(TEXT("gdfg"));
+        FString Location3 = FString::Printf(TEXT("xxx"));
         FCanvasTextItem LocationItem3(TextPosition + FVector2D(120, 40), FText::FromString(Location3), Font, FLinearColor::White);
         Canvas->DrawItem(LocationItem3);
 

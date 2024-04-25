@@ -24,6 +24,7 @@ public:
 
 	void SendJsonMessageToRegister(const FString& Mid);
 	void SendJsonMessageToCreateSatellite(const FString& Mid);
+	void SendJsonMessageToCreateSatelliteSpeed(const FString& Mid,const FString& type);
 	void SendJsonMessageToForward(const FString& Mid,const int32& timeSlot,const FString& unit);
 
 	void ReceiveJsonResponseFromRegister(const FString& JsonString);
